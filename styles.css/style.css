@@ -31,10 +31,17 @@ header {
     margin-left: 50px;
 }
 
+/* /////////////// h1 h1 h1 hover transition added */
+h1 {
+    transition: 2s ease-in-out;
+}
+
+h1:hover {
+    color: darkred;
+}
 
 
-
-/* //////////////////paragraph//////////////  */
+/* //////////////////    h6    //////////////  */
 
 .Grettings {
     width: 500px;
@@ -43,6 +50,7 @@ header {
     font-weight: lighter;
     font-size: medium;
 }
+
 
 
 /* //////////////////live button header area//////////////////////// */
@@ -59,12 +67,113 @@ header {
     font-weight: 400;
     font-style: italic;
     font-family: cursive;
-    box-shadow: 8px 8px 25px darkgoldenrod;
+    box-shadow: inset 8px 8px 25px greenyellow;
+    transition: 2s ease;
+
 }
 
+/* //////////////// live button hover////////////// */
+
+.live-button:hover {
+
+    box-shadow: inset 140px 0 0 0 greenyellow;
+    color: red;
+
+
+}
+
+
+/* /////////////////player image header sec///////////////////// */
 .player-img img {
     height: 450px;
     margin-top: 40px;
     margin-left: 80px;
 
+}
+
+/* ///////////////// nasted navigation ////////////////// */
+
+
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 265px;
+    height: 250px;
+    margin-top: 100px;
+    background: #DCDCDC;
+    border-radius: 10px;
+}
+
+
+/* ////////////////navigation button//////// */
+
+.nav-btn1 {
+    text-decoration: none;
+    margin: 20px 20px;
+    padding: 14px 15px;
+    border-radius: 5px;
+    text-align: center;
+    background-image: linear-gradient(DarkKhaki, orange);
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    font-style: italic;
+    font-family: cursive;
+    box-shadow: inset 8px 8px 25px greenyellow;
+    transition: 2s ease;
+}
+
+.nav-btn1:hover {
+    box-shadow: inset 290px 0 0 0 greenyellow;
+    color: red;
+}
+
+/* /////////////////nav button 2 */
+.nav-btn2 {
+    text-decoration: none;
+    margin: 9px 20px;
+    padding: 14px 15px;
+    border-radius: 5px;
+    text-align: center;
+    background-image: linear-gradient(DarkKhaki, orange);
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    font-style: italic;
+    font-family: cursive;
+    box-shadow: inset 8px 8px 25px greenyellow;
+    transition: 2s ease;
+}
+
+.nav-btn2:hover {
+    box-shadow: inset 290px 0 0 0 greenyellow;
+    color: red;
+}
+
+/* ////////////////////                  navbutton 3  /////////////////////////////////*/
+.nav-btn3 {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    padding: 14px 15px;
+    border-radius: 5px;
+    text-align: center;
+    background-image: linear-gradient(DarkKhaki, orange);
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    font-style: italic;
+    font-family: cursive;
+    box-shadow: inset 8px 8px 25px greenyellow;
+    transition: 2s ease;
+}
+
+.nav-btn3:hover {
+    box-shadow: inset 290px 0 0 0 greenyellow;
+    color: red;
 }
