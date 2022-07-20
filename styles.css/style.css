@@ -298,26 +298,35 @@ hr {
 }
 
 /* ////////////////////////////////footer links/////////////////////////// */
-.Join {
-    text-align: center;
+
+
+
+.icons {
+    justify-content: space-evenly;
+
 }
 
-.us {
-    margin-right: 16px;
+/* ////////footer colors///////////////// */
+.fa-twitter {
+    color: #2196f3;
 }
 
-.hot {
-    margin-right: 16px;
+.fa-google-plus-square {
+    color: red;
 }
 
-.cookies {
-    margin-right: 16px;
+.fa-instagram {
+    color: palevioletred;
 }
 
-.newsletter {
-    margin-left: 16px;
+.fa-reddit-alien {
+    color: orangered;
 }
 
-.hiring {
-    margin-left: 16px;
+.fa-telegram {
+    color: blue;
+}
+
+.fa-linkedin {
+    color: black;
 }
