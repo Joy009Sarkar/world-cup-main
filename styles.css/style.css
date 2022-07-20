@@ -261,6 +261,16 @@ h4:hover {
 
 
 
+/* //////////////////////////////Hidden button /////////////// */
+
+
+.view {
+    text-decoration: none;
+    visibility: hidden;
+}
+
+
+
 
 /* ///////////////////////////////footer area ////////////////////////// */
 
@@ -270,4 +280,44 @@ h4:hover {
     background-color: #40E0D0;
     margin-top: 10%;
 
+}
+
+/* ////////////////h2//////////////////// */
+
+h2 {
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+}
+
+/* ///////////////////////horizontal line /////////////////////////////// */
+hr {
+    width: 80%;
+    margin-top: 4%;
+
+}
+
+/* ////////////////////////////////footer links/////////////////////////// */
+.Join {
+    text-align: center;
+}
+
+.us {
+    margin-right: 16px;
+}
+
+.hot {
+    margin-right: 16px;
+}
+
+.cookies {
+    margin-right: 16px;
+}
+
+.newsletter {
+    margin-left: 16px;
+}
+
+.hiring {
+    margin-left: 16px;
 }
