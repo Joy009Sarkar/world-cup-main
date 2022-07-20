@@ -189,48 +189,44 @@ li {
 
 /* //////////////////////////////////////
                 flag area ///////////////////////// */
-.flexible-flags {
-    display: flex;
-    flex-direction: column;
 
-}
-
-.parent-div {
-
+.flex-sec {
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    /* justify-content: center;
-    align-items: center; */
-
-}
-
-.flexible-container {
-
-    width: 250px;
-    height: 300px;
-    background-color: #2196f3;
-    border-radius: 2%;
-    display: flex;
-
+    margin-left: 30px;
+    grid-gap: 50px;
 }
 
 
 
 
 
-.flexible-container img {
-    width: 100px;
-    padding-left: 10px;
+.cards {
+    background-color: aquamarine;
+    width: 230px;
+    height: 200px;
+    text-align: center;
+    margin-top: 10%;
+    border-radius: 7px;
 
 }
 
-/* .germany {
-    display: block;
-} */
+.cards img {
+    margin-top: 10%;
 
-/* .parent {
-    display: inline-block;
-} */
+
+}
+
+.card1 {
+    width: 220px;
+    margin-left: 7px;
+    text-align: center;
+
+}
+
+
+
+
 
 
 
@@ -267,26 +263,66 @@ hr {
 }
 
 /* ////////////////////////////////footer links/////////////////////////// */
-.Join {
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: #40E0D0;
+    margin-top: 10%;
+
+}
+
+/* ////////////////h2//////////////////// */
+
+h2 {
+    color: white;
     text-align: center;
+    padding-top: 10%;
 }
 
-.us {
-    margin-right: 16px;
+/* ///////////////////////horizontal line /////////////////////////////// */
+hr {
+    width: 80%;
+    margin-top: 4%;
+
 }
 
-.hot {
-    margin-right: 16px;
+/* ////////////////////////////////footer links/////////////////////////// */
+
+
+
+.icons {
+    justify-items: center;
 }
 
-.cookies {
-    margin-right: 16px;
+/* ////////footer colors///////////////// */
+.fa-twitter {
+    margin-left: 13%;
+    color: #2196f3;
 }
 
-.newsletter {
-    margin-left: 16px;
+.fa-google-plus-square {
+    margin-left: 13%;
+    color: red;
 }
 
-.hiring {
-    margin-left: 16px;
+.fa-instagram {
+    margin-left: 13%;
+    color: palevioletred;
+}
+
+.fa-reddit-alien {
+    margin-left: 13%;
+    color: orangered;
+}
+
+.fa-telegram {
+    margin-left: 14%;
+
+    color: blue;
+}
+
+.fa-linkedin {
+    margin-left: 14%;
+
+    color: black;
 }
