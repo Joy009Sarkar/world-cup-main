@@ -195,7 +195,7 @@ li {
     margin-top: 90px;
     margin-left: 50px;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 70px;
 
 
@@ -265,8 +265,13 @@ h4:hover {
 
 
 .view {
-    text-decoration: none;
+    background-color: #40E0D0;
+    width: 80px;
+    text-align: center;
     visibility: hidden;
+    margin-left: 200px;
+    margin-top: 20px;
+
 }
 
 
@@ -293,40 +298,184 @@ h2 {
 /* ///////////////////////horizontal line /////////////////////////////// */
 hr {
     width: 80%;
-    margin-top: 4%;
+    /* margin-top: 4%; */
 
 }
 
-/* ////////////////////////////////footer links/////////////////////////// */
-
-
-
-.icons {
+/* ////////////////////////////////footer options/////////////////////////// */
+.options {
+    display: flex;
     justify-content: space-evenly;
+}
+
+
+
+
+
+/*//////////////////////// @media queries////////////////////// */
+
+
+/* ///////////////mobile devices////////////////////// */
+
+
+@media only screen and (max-width:688px) {
+
+    h1 {
+        width: 175px;
+        font-size: medium;
+        text-align: center;
+    }
+
+
+
+
+    .Grettings {
+        font-size: small;
+        margin-top: 2%;
+        width: 130px;
+        text-align: left;
+    }
+
+    .live-button {
+        margin-bottom: 10px;
+    }
+
+    header {
+        background-color: #2196f3;
+        height: 80%;
+        width: 275px;
+    }
+
+    .heading-sec {
+        width: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .player-img img {
+        width: 170px;
+        height: 40%;
+
+    }
+
+    .flexible-sec {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog {
+        width: 100%;
+        height: 100%;
+    }
+
+    .blog img {
+        width: 100%;
+    }
+
+    .blogs {
+        width: 275px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .footer {
+        width: 275px;
+
+
+    }
+
+    .options {
+        display: flex;
+
+        flex-direction: column;
+        text-align: center;
+    }
 
 }
 
-/* ////////footer colors///////////////// */
-.fa-twitter {
-    color: #2196f3;
-}
+/* ////////////////////tablet devices//////////////////// */
 
-.fa-google-plus-square {
-    color: red;
-}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    h1 {
+        width: 175px;
+        font-size: medium;
+        text-align: center;
+    }
 
-.fa-instagram {
-    color: palevioletred;
-}
 
-.fa-reddit-alien {
-    color: orangered;
-}
 
-.fa-telegram {
-    color: blue;
-}
 
-.fa-linkedin {
-    color: black;
+    .Grettings {
+        font-size: small;
+        margin-top: 2%;
+        width: 130px;
+        text-align: left;
+    }
+
+    .live-button {
+        margin-bottom: 10px;
+    }
+
+    header {
+        background-color: #2196f3;
+        height: 80%;
+        width: 500px;
+    }
+
+    .heading-sec {
+        width: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .player-img img {
+        width: 170px;
+        height: 40%;
+
+    }
+
+    .flexible-sec {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog {
+        width: 100%;
+        height: 100%;
+    }
+
+    .blog img {
+        width: 100%;
+    }
+
+    .blogs {
+        width: 390px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        justify-content: center;
+
+    }
+
+    .view {
+        visibility: visible;
+
+    }
+
+    .footer {
+        width: 60%;
+        height: 600px;
+
+
+    }
+
+    .options {
+        display: flex;
+
+        flex-direction: column;
+        text-align: center;
+    }
 }
